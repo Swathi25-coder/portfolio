@@ -13,7 +13,7 @@ export default function Experience() {
         "Optimized application performance and loading speeds",
         "Implemented responsive design principles"
       ],
-      technologies: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "REST APIs", "Ant Design","Android"]
+      technologies: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "REST APIs", "Ant Design", "Android"]
     }
   ];
 
@@ -41,9 +41,6 @@ export default function Experience() {
                       </p>
                     </div>
                     <div className="text-right mt-2 md:mt-0">
-                      <p className="text-gray-400 font-medium">
-                        {exp.period}
-                      </p>
                       <p className="text-gray-500">
                         {exp.location}
                       </p>
@@ -71,7 +68,7 @@ export default function Experience() {
                     </h4>
                     <div className="flex flex-wrap gap-2">
                       {exp.technologies.map((tech, techIndex) => (
-                        <span 
+                        <span
                           key={techIndex}
                           className="px-3 py-1 bg-slate-700 text-gray-300 rounded-full text-sm border border-slate-600"
                         >

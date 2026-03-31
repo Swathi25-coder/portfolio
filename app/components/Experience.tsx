@@ -4,7 +4,6 @@ export default function Experience() {
       title: "Software Developer",
       company: "Tilicho Labs",
       location: "Visakhapatnam, India",
-      period: "Aug 2022 – Aug 2025",
       description: "Frontend developer specializing in React.js and Next.js applications for diverse client projects.",
       achievements: [
         "Developed scalable UI using React & Next.js",

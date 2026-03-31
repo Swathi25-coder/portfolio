@@ -40,12 +40,7 @@ export default function Experience() {
                         {exp.company}
                       </p>
                     </div>
-                    <div className="text-right mt-2 md:mt-0">
-                      <p className="text-gray-500">
-                        {exp.location}
-                      </p>
-                    </div>
-                  </div>
+                      </div>
                   <p className="text-gray-300 mb-6 leading-relaxed">
                     {exp.description}
                   </p>

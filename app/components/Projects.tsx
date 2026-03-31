@@ -58,6 +58,19 @@ export default function Projects() {
       projectPreviewImage: "/freyr.png",
       liveUrl: "https://drive.google.com/file/d/1rOhWUEO-L-DRicZEgJ98IsxFVoBq1dTq/view?usp=sharing",
       // githubUrl: "https://github.com/example"
+    },
+    {
+      title: "Grit Financial",
+      description: "Grit is a free financial wellness platform that gives you better ways to manage your finances. Our tools and resources empower you to pay bills on time.",
+      technologies: ["Android", "MVI Architecture", "XML", "Firebase Integration"],
+      highlights: [
+        "Transfers with Western Union",
+        "Transfers with Moneygram",
+        "Add Money and Send Money",
+        "Push Notifications"
+      ],
+      projectPreviewImage: "/grit.png",
+      liveUrl: "https://drive.google.com/file/d/1pYzBCfykX78M8W9T-n-bfK-QFUGR-haR/view?usp=sharing",
     }
   ];
 
